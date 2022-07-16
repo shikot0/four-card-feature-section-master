@@ -21,9 +21,6 @@ Also I have seen how bad my markup is in hindsight however I chose not to change
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
@@ -36,6 +33,6 @@ I learned how to use grid-column/row-start/end as I used it quite a lot for this
 Going further I want to write more "efficient" markup as looking back on this now I realised that there were lots of different areas where I could have used other techniques such as using css variables for the box-shadow and top-borders of the cards, however I shall leave it as it is for now.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [shikoto](https://www.frontendmentor.io/profile/shikot0)
 
 
