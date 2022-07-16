@@ -1,0 +1,195 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.header {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+}
+.secondary-heading {
+    margin-bottom: 6px;
+    font-weight: 100;
+    color: hsl(229, 6%, 66%);
+    font-size: 25px;
+}
+.main-heading {
+    margin-top: 6px;
+    color: hsl(234, 12%, 34%);
+    font-size: 25px;
+}
+.sub-heading {
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, .25fr);
+    grid-template-rows: repeat(4, 90px);
+    padding: 20px 80px;
+    gap: 25px;
+}
+.card {
+    border-radius: 6px;
+    background-color: whitesmoke;
+    padding: 35px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 20px rgb(194, 194, 194);
+    transition: 0.2s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: bottom 40px right 30px;
+}
+.card:hover {
+    transform: scale(1.07);
+}
+.supervisor-card {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-top: 6px solid hsl(212, 86%, 64%);
+    background-image: url(images/icon-supervisor.svg);
+}
+.supervisor-card:hover {
+    box-shadow: 5px 5px 8px hsl(212, 86%, 64%);
+}
+.team-builder-card {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-top: 6px solid hsl(0, 78%, 62%);
+    background-image: url(images/icon-team-builder.svg);
+}
+.team-builder-card:hover {
+    box-shadow: 5px 5px 8px hsl(0, 78%, 62%);
+}
+.karma-card {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-top: 6px solid hsl(34, 97%, 64%);
+    background-image: url(images/icon-karma.svg);
+}
+.karma-card:hover {
+    box-shadow: 5px 5px 8px hsl(34, 97%, 64%);
+}
+.calculator-card {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-top: 6px solid hsl(180, 62%, 55%);
+    background-image: url(images/icon-calculator.svg);
+}
+.calculator-card:hover {
+    box-shadow: 5px 5px 8px hsl(180, 62%, 55%);
+}
+.card-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: hsl(234, 12%, 34%);
+}
+.main-card-text {
+    margin-top: 12px;
+    margin-right: 70px;
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+}
+@media screen and (max-width: 1080px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 20px 30px
+    }
+    .team-builder-card {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .supervisor-card {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .karma-card {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .calculator-card {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .sub-heading {
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .secondary-heading {
+        font-size: 20px;
+    }
+    .main-heading {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 250px);
+        padding: 20px 30px;
+    }
+    .team-builder-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .supervisor-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .karma-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .calculator-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .sub-heading {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .card-header {
+        font-size: 20px;
+    }
+    .main-card-text {
+        font-size: 15px;   
+    } 
+}
