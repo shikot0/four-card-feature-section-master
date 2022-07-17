@@ -17,10 +17,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 I did this project I while back however I didn't feel like submitting it yet so after some revisions I have decided that this will be my first submission on frontend mentor with more to follow in the near future.
 Also I have seen how bad my markup is in hindsight however I chose not to change too much of it in order to keep its authenticity in a sense.
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
